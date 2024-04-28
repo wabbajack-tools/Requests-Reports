@@ -1,9 +1,11 @@
-# WIP
-TLDR used for demo. Will be fully expanded with documentation before it is potentially implemented. 
+# Applications & Reports
 
-Create an "Issue" to:
-- Request Featured Status for a modlist.
-- Report a major unaddressed issue with an existing featured list
-- Report a Wabbajack license or asset distribution violation with a modlist.
+## What is this ?
 
-Best way for you to see how it works is to click through and look at the templates. We have created filled in examples (See issues) to show how it works in action
+This is a repository housing all featured requests/applications and reports to already featured and unfeatured lists that either break the rules or don't meet the featured criteria anymore.
+
+## Is this the final solution ?
+
+Maybe, for now this can be considered a live beta test of the new system to see how well it works and if we need to add more fields or descriptions to the "Forms" (Issue Templates).
+
+The way how list are tested doesn't not change but all conversion to as to why a list might got rejected is to be posted here. The conversation is open to anyone.
