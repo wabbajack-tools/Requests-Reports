@@ -1,0 +1,67 @@
+name: Report A Featured Modlist
+description: This is if you want to report a **FEATURED** Modlist, that is not upholding the requirements anymore.
+title: "Report for [List Name]"
+labels: ["Modlist Report","in-progress"]
+body:
+  - type: markdown
+    id: notice
+    attributes:
+      value: |
+        ## IMPORTANT NOTICE
+        
+        This report From is reseved for **serious** negligence by a modlist author of the requirements we set for featured lists and need to be seriously reviewed. <Link to Featured Criteria and required standards>
+        Because of that we require every report to feature strong proof of any accusation and reserve the right to ban people from accessing this service.  
+        The following are examples of things that can potentially get you banned:
+
+        - Trying to get faster support
+          - This is **not** a bug report service for lists
+          - If an issue is logged by a List author and they have it in their To-Do lists then that is enough!
+            - **ONLY** Gamebreaking and blatant issues should be resolved timely¹.
+        - Reporting a Modlist just because you don't like the author
+        - You don't like the rules of some of the support servers
+          - This is not the place for ban appeals either if you were banned from a server  
+
+        *¹ Timely in this context can and will be judged on a case by case basis, under the consideration that **ALL** of this is unpaid **VOLUNTEER** work. Authors real lives take priority 
+        and that temporary work arounds are considered under this criteria as "fixes" to an issue, within reason.
+
+  - type: input
+    id: list_name
+    attributes:
+      label: Reported List
+      description: Provide the name of the list.
+      placeholder: List Name
+    validations:
+      required: true
+  - type: input
+    id: support_server
+    attributes:
+      label: Discord Support Server
+      description: Provide the link to the Discord Support Server for the list.
+    validations:
+      required: true
+  - type: input
+    id: username
+    attributes:
+      label: Discord Username
+      description: We need your Discord username to verify your report on the support server for the accused list.
+    validations:
+      required: true
+  - type: textarea
+    id: reporttext
+    attributes:
+      label: Report Reason
+      description: Please provide the reason for your report and all the proof to validate it.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Agreements
+      description: By submitting this report, you confirm the following statements.
+      options:
+        - label: I did the best I can to report and communicate with the modlist author in good faith to help them get the issues fixed.
+          required: true
+        - label: I **DID NOT** modify the list.
+          required: true
+        - label: I have read all the Documentation (Readme, Website, Wiki, pinned posts on the support servers) before making this report.
+          required: true

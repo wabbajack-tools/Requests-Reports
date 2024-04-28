@@ -1,0 +1,86 @@
+name: Request Featured Status
+description: Issue Template for getting your list featured.
+title: "Featured Status Request [List Name]"
+labels: ["Featured Request","in-progress"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is the starting point for the process to get your list in the featured category. So please make sure that all the information you enter below is correct and that your list fits the quality standards.
+  - type: dropdown
+    id: game
+    attributes:
+      label: What game is your list for ?
+      description: Please 
+      options:
+        - Skyrim Special Edition
+        - Skyrim Legendary Editon
+        - Fallout 4
+        - Other (Will be expanded to the full list)
+    validations:
+      required: true
+  - type: input
+    id: list_name
+    attributes:
+      label: What is your List Called ?
+      description: Provide the name of your list.
+      placeholder: Best List
+    validations:
+      required: true
+  - type: input
+    id: support_server
+    attributes:
+      label: Where do you offer support for your list ?
+      description: Provide the link to the Discord Support Server for your list.
+    validations:
+      required: true
+  - type: input
+    id: readme
+    attributes:
+      label: Link to Readme / Documentation
+      description: Please provide a link to your user documentation.
+    validations:
+      required: true
+  - type: textarea
+    id: find_a_modlist
+    attributes:
+      label: Find A Modlist Assets and Meta Information
+      description: |
+        We use multiple things to promote lists to users who are unsure of which modlist to play. Please say where your list will fit in the  following:
+        
+        - https://github.com/wabbajack-tools/mod-lists/blob/master/modlist-descriptions.md
+        - https://wizard.wabbajack.org/
+        - https://tinyurl.com/mrkbfzwe
+        
+        Additionally, please provide the following information:
+        1- link to banner image:
+        2- list name and author:
+        3- Find out more link:
+        4- Does the game require anything more than the base game? If yes, what does it require (any specific DLCs that are not included in the base game or the Anniversary Edition DLC count)
+        5- Where it fits in the chart/wizard and the differences between similar lists. Refer to the existing resources for an idea of what we are looking for.
+    validations:
+      required: true
+  - type: input
+    id: image
+    attributes:
+      label: Provide a WebP image for your modlist thumbnail for use in the "Find a List" tools and website promotion.
+      description: "Ideally a 16:9 aspect ratio and a resolution of 1920x1080."
+    validations:
+      required: true
+  - type: input
+    id: lifetime
+    attributes:
+      label: When did you release the list?
+      description: This is required so we can compare and judge the existing support over time. 
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Agreements
+      description: By submitting this request, you agree to the following.
+      options:
+        - label: "The work submitted in this request is my own, and in my branding and doesn't infringe on existing Intelectual Property or Brands."
+          required: true
+        - label: I agree to fully open, honest and possibly critical examination and discussion of my here submitted work.
+          required: true

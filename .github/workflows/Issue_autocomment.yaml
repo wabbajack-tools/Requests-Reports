@@ -1,0 +1,91 @@
+name: AutoComment
+on:
+  issues:
+    types: [opened]
+jobs:
+  featured_criteria_comment:
+    name: Comment Request Response Summary Template
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'Featured Request')
+    steps:
+      - name: Post Comment
+        uses: peter-evans/create-or-update-comment@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          body: |
+            ## Testing Values
+            
+            - [ ] Support activity and quality
+              - Approved/Rejected by: @
+            - [ ] Documentation quality
+              - Approved/Rejected by: @
+            - [ ] Modlist has custom patching
+              - Approved/Rejected by: @
+            - [ ] No obvious unresolved conflicts
+              - Approved/Rejected by: @
+            - [ ] No frequent crashes or repeatable bugs
+              - Approved/Rejected by: @
+            
+            ## Important Meta Data
+            
+            - [ ] Modlist Image as WEBP
+              - Approved/Rejected by: @
+            - [ ] Modlist Description/Elevator Pitch
+              - Approved/Rejected by: @
+            - [ ] Modlist location in the Find a List system
+              - Approved/Rejected by: @
+            - [ ] Link to LoadOrder Library page for the List
+              - Approved/Rejected by: @
+            
+            ---
+            
+            **This comment template will be updated over time by the team as a universal collection of all reviewed criteria and is the binding response to the request.**
+  report_featured_check_comment:
+    name: Comment Report Validation Response Template
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'Modlist Report')
+    steps:
+      - name: Post Comment
+        uses: peter-evans/create-or-update-comment@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          body: |
+            ## Report Status
+
+            - [ ] Report Investigated
+              - Investigated by @
+              
+            ### Report Acceped/Rejected
+            Reason:
+
+            ### Additional Comments by report reviewers or links to list author responses
+
+            ---
+            
+            **This comment template will be updated after a review of the report and is the binding response to it.**
+  report_violation_check_comment:
+    name: Comment Violation Report Acknowledgement and Summary Template
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'Policy or License Violation')
+    steps:
+      - name: Post Comment
+        uses: peter-evans/create-or-update-comment@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          body: |
+            ## Report Status
+
+            - [ ] Report Investigated
+              - Investigated by @
+              
+            ### Report Acceped/Rejected
+            Reason:
+
+            ### Additional Comments by report reviewers or links to list author responses
+
+            ---
+            
+            **This comment template will be updated after a review of the report and is the binding response to it.**

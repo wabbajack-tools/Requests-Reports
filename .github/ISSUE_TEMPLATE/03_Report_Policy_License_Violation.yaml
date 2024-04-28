@@ -1,0 +1,72 @@
+name: Report A Policy or License Violation
+description: This is if you want to report a someone violating Wabbajack Policies or The Wabbajack License.
+title: "Report for [List Name]"
+labels: ["Policy or License Violation","in-progress"]
+body:
+  - type: markdown
+    id: notice
+    attributes:
+      value: |
+        ## IMPORTANT NOTICE
+        
+        This report From is reseved for **serious** violations to the Wabbajack Policies and License by a modlist author.
+        Because of that we require every report to feature strong proof of any accusation and reserve the right to ban people from accessing this service.  
+        The following are examples of things that can potentially get you banned:
+
+        - Trying to get faster support
+          - This is **not** a bug report service for lists
+        - Reporting a Modlist just because you don't like the author
+        - You don't like the rules of some of the support servers
+          - This is not the place for ban appeals either if you were banned from a server
+
+        **The biggest examples of what can and should be reported are:** 
+          - Any paywalled access to modlists, this includes temporary ones.
+          - Illegal distribution of assets, either from mods or other sources.
+
+  - type: input
+    id: list_name
+    attributes:
+      label: Reported List
+      description: Provide the name of the list.
+      placeholder: List Name
+    validations:
+      required: true
+  - type: input
+    id: list_url
+    attributes:
+      label: Reported List Source
+      description: Provide the source of the list.
+      placeholder: Website Link/URL or Discord Invite
+    validations:
+      required: true
+  - type: input
+    id: support_server
+    attributes:
+      label: Discord Support Server
+      description: Provide the link to the Discord Support Server for the list. (If available)
+    validations:
+      required: false
+  - type: input
+    id: username
+    attributes:
+      label: Discord Username of the Author
+      description: We need your Discord username to contact the author of the accused list. (If available)
+    validations:
+      required: false
+  - type: textarea
+    id: reporttext
+    attributes:
+      label: Report Reason
+      description: Please provide the reason for your report and all the proof to validate it.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Agreements
+      description: By submitting this report, you confirm the following statements.
+      options:
+        - label: I checked in the existing [reports](https://github.com/EzioTheDeadPoet/demo_rep/issues?q=is%3Aopen+is%3Aissue+label%3A%22Policy+or+License+Violation%22) if the list was reported already.
+          required: true
+        - label: I know that I am making serious accusations and know of the consequences of actively lying about them.
+          required: true
