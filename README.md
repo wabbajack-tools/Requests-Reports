@@ -2,7 +2,7 @@
 
 ## What is this ?
 
-This is a repository for applications and reports relating to the Wabbajack gallery. Creators of unofficial lists that wish to apply for featured status can apply here. Furthermore, users can submit reports for lists that may be breaking any rules. Reports can be submitted for any lists that are breaking Nexus terms of service, distributing pirated mods, ininclude paywalled content, etc. Reports can also be submitted for featured lists that no longer meet the requirements for featured status.   
+This is a repository for applications and reports relating to the Wabbajack gallery. Creators of unofficial lists that wish to apply for featured status can apply here. Furthermore, users can submit reports for lists that may be breaking any rules. Reports can be submitted for any lists that are breaking Nexus terms of service, distributing pirated mods, include paywalled content, etc. Reports can also be submitted for featured lists that no longer meet the requirements for featured status.   
   
 [Wabbajack Featured List Criteria](https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Criteria%20for%20'Featured%20Mod%20List'%20status.html)    
 
