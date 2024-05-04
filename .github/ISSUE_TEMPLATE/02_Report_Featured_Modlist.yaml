@@ -9,20 +9,16 @@ body:
       value: |
         ## IMPORTANT NOTICE
         
-        This report From is reseved for **serious** negligence by a modlist author of the requirements we set for featured lists and need to be seriously reviewed. <Link to Featured Criteria and required standards>
-        Because of that we require every report to feature strong proof of any accusation and reserve the right to ban people from accessing this service.  
+        This report From is reseved for **serious** negligence by a modlist author of the requirements we set for featured lists and need to be seriously reviewed. [Wabbajack Featured List Criteria](https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Criteria%20for%20'Featured%20Mod%20List'%20status.html)  
+        We require every report to feature strong proof of any accusation and reserve the right to ban people from accessing this service and dismiss frivolous reports. 
         The following are examples of things that can potentially get you banned:
 
         - Trying to get faster support
-          - This is **not** a bug report service for lists
-          - If an issue is logged by a List author and they have it in their To-Do lists then that is enough!
-            - **ONLY** Gamebreaking and blatant issues should be resolved timely¹.
+        - Reporting minor, non game breaking bugs
         - Reporting a Modlist just because you don't like the author
-        - You don't like the rules of some of the support servers
-          - This is not the place for ban appeals either if you were banned from a server  
-
-        *¹ Timely in this context can and will be judged on a case by case basis, under the consideration that **ALL** of this is unpaid **VOLUNTEER** work. Authors real lives take priority 
-        and that temporary work arounds are considered under this criteria as "fixes" to an issue, within reason.
+        - You were banned from a server or dislike their rules
+        
+        *¹ Timely in this context can and will be judged on a case by case basis, under the consideration that **ALL** of this is unpaid **VOLUNTEER** work. Author's real lives take priority, and temporary work arounds are considered under this criteria as "fixes" to an issue, within reason.
 
   - type: input
     id: list_name
