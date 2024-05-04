@@ -9,19 +9,18 @@ body:
       value: |
         ## IMPORTANT NOTICE
         
-        This report From is reseved for **serious** violations to the Wabbajack Policies and License by a modlist author.
+        This report form is reseved for **serious** violations to the Wabbajack Policies and License by a modlist author.
         Because of that we require every report to feature strong proof of any accusation and reserve the right to ban people from accessing this service.  
         The following are examples of things that can potentially get you banned:
 
-        - Trying to get faster support
-          - This is **not** a bug report service for lists
-        - Reporting a Modlist just because you don't like the author
-        - You don't like the rules of some of the support servers
-          - This is not the place for ban appeals either if you were banned from a server
-
+        - Trying to get faster support  
+        - Reporting minor, non game breaking bugs  
+        - Reporting a Modlist just because you don't like the author  
+        - You were banned from a server or dislike their rules  
+        
         **The biggest examples of what can and should be reported are:** 
-          - Any paywalled access to modlists, this includes temporary ones.
-          - Illegal distribution of assets, either from mods or other sources.
+          - Any paywalled access to modlists, including temporary files, betas, testing, or otherwise.
+          - Illegal distribution of assets, either from mods or other sources, including but not limited to in the Wabbajack file or on the CDN.   
 
   - type: input
     id: list_name
