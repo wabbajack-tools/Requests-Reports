@@ -1,5 +1,5 @@
 name: Report A Policy or License Violation
-description: This is if you want to report a someone violating Wabbajack Policies or The Wabbajack License.
+description: This is if you want to report someone violating Wabbajack Policies or The Wabbajack License.
 title: "Report for [List Name]"
 labels: ["Policy or License Violation","in-progress"]
 body:
@@ -21,6 +21,8 @@ body:
         **The biggest examples of what can and should be reported are:** 
           - Any paywalled access to modlists, including temporary files, betas, testing, or otherwise.
           - Illegal distribution of assets, either from mods or other sources, including but not limited to in the Wabbajack file or on the CDN.   
+
+        - Wabbajack is *not* affiliated with Nexus Mods, discord, github, etc. That being said, we take their terms of service as seriously as our own and will not tolerate violations of their policies using our software.  
 
   - type: input
     id: list_name
