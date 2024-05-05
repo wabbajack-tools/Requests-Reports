@@ -13,6 +13,7 @@ body:
       label: What game is your list for ?
       description: Please 
       options:
+        - "Baldur\'s Gate 3"
         - Skyrim Special Edition
         - Skyrim Legendary Editon
         - Fallout 4
