@@ -13,11 +13,36 @@ body:
       label: What game is your list for ?
       description: Please 
       options:
-        - "Baldur\'s Gate 3"
-        - Skyrim Special Edition
-        - Skyrim Legendary Editon
+        - "Baldur\u0027s Gate 3"
+        - Cyberpunk 2077
+        - Darkest Dungeon
+        - Dishonored
+        - "Dragon\u0027s Dogma: Dark Arisen"
+        - Dragon Age 2
+        - Dragon Age Inquisition
+        - Enderal
+        - Enderal Special Edition
+        - Fallout 3
         - Fallout 4
-        - Other (Will be expanded to the full list)
+        - Fallout 4 VR
+        - Fallout New Vegas
+        - Final Fantasy VII Remake Intergrade
+        - "Karryn\u0027s Prison"
+        - Kerbal Space Program
+        - "Mount & Blade II: Bannerlord"
+        - Sims 4
+        - Stardew Valley
+        - Terraria
+        - TES Morrowind
+        - TES Oblivion
+        - TES Skyrim
+        - TES Skyrim Special Edition
+        - The Witcher
+        - "The Witcher® 3: Wild Hunt"
+        - "Kingdom Come: Deliverance"
+        - "Mechwarrior 5: Mercenaries"
+        - "No Man\u0027s Sky"
+        - Other (please edit after posting)
     validations:
       required: true
   - type: input
