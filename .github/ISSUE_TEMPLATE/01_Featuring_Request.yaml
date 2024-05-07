@@ -96,7 +96,7 @@ body:
   - type: input
     id: lifetime
     attributes:
-      label: When did you release the list?
+      label: When did you release the list on the Wabbajack UI?
       description: This is required so we can compare and judge the existing support over time. 
     validations:
       required: true
@@ -107,6 +107,8 @@ body:
       description: By submitting this request, you agree to the following.
       options:
         - label: "The work submitted in this request is my own, and in my branding and doesn't infringe on existing Intelectual Property or Brands."
+          required: true
+        - label: "My list has custom patching as required to address any known conflicts, bugs, or crashes"
           required: true
         - label: I agree to fully open, honest and possibly critical examination and discussion of my here submitted work.
           required: true
