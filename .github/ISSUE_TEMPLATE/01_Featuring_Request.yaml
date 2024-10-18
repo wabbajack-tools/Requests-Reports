@@ -10,7 +10,7 @@ body:
   - type: dropdown
     id: game
     attributes:
-      label: What game is your list for ?
+      label: What game is your list for?
       description: Please 
       options:
         - "Baldur\u0027s Gate 3"
@@ -48,23 +48,23 @@ body:
   - type: input
     id: list_name
     attributes:
-      label: What is your List Called ?
-      description: Provide the name of your list.
-      placeholder: Best List
+      label: What is your modlist called?
+      description: Provide the name of your modlist.
+      placeholder: My modlist
     validations:
       required: true
   - type: input
     id: support_server
     attributes:
-      label: Where do you offer support for your list ?
-      description: Provide the link to the Discord Support Server for your list.
+      label: Where do you offer support for your modlist?
+      description: Provide the link to the (Discord) support server for your modlist.
     validations:
       required: true
   - type: input
     id: readme
     attributes:
-      label: Link to Readme / Documentation
-      description: Please provide a link to your user documentation.
+      label: Link to readme/documentation
+      description: Please provide a link to your readme / user documentation.
     validations:
       required: true
   - type: textarea
@@ -72,18 +72,19 @@ body:
     attributes:
       label: Find A Modlist Assets and Meta Information
       description: |
-        We use multiple things to promote lists to users who are unsure of which modlist to play. Please say where your list will fit in the  following:
+        We use multiple things to promote lists to users who are unsure of which modlist to play. Please explain where your list will fit in the following:
         
         - https://github.com/wabbajack-tools/mod-lists/blob/master/modlist-descriptions.md
         - https://wizard.wabbajack.org/
-        - https://tinyurl.com/mrkbfzwe
+        - https://www.figma.com/board/obqet5Mvte1C2l849BbBSq/Wabbajack-Skychart
         
         Additionally, please provide the following information:
-        1- link to banner image:
-        2- list name and author:
-        3- Find out more link:
-        4- Does the game require anything more than the base game? If yes, what does it require (any specific DLCs that are not included in the base game or the Anniversary Edition DLC count)
-        5- Where it fits in the chart/wizard and the differences between similar lists. Refer to the existing resources for an idea of what we are looking for.
+        1 - Link to modlist thumbnail:
+        2 - List name and author:
+        3 - Find out more link:
+        4 - Does the game require anything more than the base game? If yes, what does it require (any specific DLCs that are not included in the base game or in the case of Skyrim: the Anniversary Edition DLC?)
+        5 - What differences does your modlist have to similiar lists? This information is meant for use in the 'find a modlist' quiz.
+        5 - In the case of Skyrim: where do you think your list fits in the chart and wizard? Refer to the existing resources for an idea of what we are looking for.
     validations:
       required: true
   - type: input
@@ -97,7 +98,7 @@ body:
     id: lifetime
     attributes:
       label: When did you release the list on the Wabbajack UI?
-      description: This is required so we can compare and judge the existing support over time. 
+      description: Your list is required to be available for 30 days before we can test it. This is required so we can compare and judge the existing support over time. 
     validations:
       required: true
   - type: checkboxes
@@ -106,7 +107,7 @@ body:
       label: Agreements
       description: By submitting this request, you agree to the following.
       options:
-        - label: "The work submitted in this request is my own, and in my branding and doesn't infringe on existing Intelectual Property or Brands."
+        - label: "The work submitted in this request is my own, and in my branding and doesn't infringe on existing intellectual property or brands."
           required: true
         - label: "My list has custom patching as required to address any known conflicts, bugs, or crashes"
           required: true
