@@ -84,7 +84,7 @@ body:
         3 - Find out more link:
         4 - Does the game require anything more than the base game? If yes, what does it require (any specific DLCs that are not included in the base game or in the case of Skyrim: the Anniversary Edition DLC?)
         5 - What differences does your modlist have to similiar lists? This information is meant for use in the 'find a modlist' quiz.
-        5 - In the case of Skyrim: where do you think your list fits in the chart and wizard? Refer to the existing resources for an idea of what we are looking for.
+        6 - In the case of Skyrim: where do you think your list fits in the chart and wizard? Refer to the existing resources for an idea of what we are looking for.
     validations:
       required: true
   - type: input
